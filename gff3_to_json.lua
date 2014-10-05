@@ -1,3 +1,5 @@
+#!/usr/bin/env gt
+
 function usage()
 io.stderr:write(string.format("Usage: %s <GFF file>\n" , arg[0]))
 os.exit(1)
